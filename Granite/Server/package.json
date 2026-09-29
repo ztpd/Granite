@@ -1,0 +1,17 @@
+{
+  "name": "granite-nba2k19-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NBA 2K19 HTTPS web services server",
+  "author": "Celestial",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "main": "Source/Server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.20.8"
+  },
+  "scripts": {
+    "start": "node Source/Server.js",
+    "test": "node --test Tests/"
+  }
+}

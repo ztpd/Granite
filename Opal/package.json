@@ -1,0 +1,16 @@
+{
+  "name": "opal",
+  "version": "0.1.0",
+  "description": "NBA 2K19 websocket game server",
+  "author": "Celestial",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "private": true,
+  "main": "Opal.js",
+  "scripts": {
+    "start": "node Opal.js",
+    "test": "node Tests/Codec.test.js && node Tests/Travel.test.js && node Tests/Init.test.js && node Tests/Object.test.js && node Tests/Userdata.test.js && node Tests/Position.test.js && node Tests/Relay.test.js && node Tests/VconlineRelay.test.js && node Tests/Squad.test.js && node Tests/Listener.test.js && node Tests/Courts.test.js && node Tests/CourtData.test.js && node Tests/GotNext.test.js && node Tests/AnteUp.test.js && node Tests/Shootaround.test.js && node Tests/CommandCapture.test.js && node Tests/ParkSpots.test.js && node Tests/Requests.test.js && node Tests/WorldState.test.js && node Tests/Opal19.test.js && node --test Tests/NeighborhoodGame.test.js Tests/GameRelay.test.js Tests/PlayerMachine.test.js Tests/RelayAudit.test.js Tests/LockstepDelay.test.js Tests/LockstepPacer.test.js Tests/PlayNowPeer.test.js Tests/AppearanceMerge.test.js Tests/MyCourtRooms.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

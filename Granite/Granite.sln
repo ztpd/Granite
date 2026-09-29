@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Launcher", "Launcher\Launcher.vcxproj", "{2FA09698-C2EB-4C66-88B3-830D282946B4}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Injector", "Injector\Injector.vcxproj", "{EBABCD57-F26B-45CE-96B2-C7B8F0B578A0}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Module", "Module\Module.vcxproj", "{5AD5587C-0349-41D5-B734-466772E9A590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA09698-C2EB-4C66-88B3-830D282946B4}.Debug|x64.ActiveCfg = Debug|x64
+		{2FA09698-C2EB-4C66-88B3-830D282946B4}.Debug|x64.Build.0 = Debug|x64
+		{2FA09698-C2EB-4C66-88B3-830D282946B4}.Release|x64.ActiveCfg = Release|x64
+		{2FA09698-C2EB-4C66-88B3-830D282946B4}.Release|x64.Build.0 = Release|x64
+		{EBABCD57-F26B-45CE-96B2-C7B8F0B578A0}.Debug|x64.ActiveCfg = Debug|x64
+		{EBABCD57-F26B-45CE-96B2-C7B8F0B578A0}.Debug|x64.Build.0 = Debug|x64
+		{EBABCD57-F26B-45CE-96B2-C7B8F0B578A0}.Release|x64.ActiveCfg = Release|x64
+		{EBABCD57-F26B-45CE-96B2-C7B8F0B578A0}.Release|x64.Build.0 = Release|x64
+		{5AD5587C-0349-41D5-B734-466772E9A590}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD5587C-0349-41D5-B734-466772E9A590}.Debug|x64.Build.0 = Debug|x64
+		{5AD5587C-0349-41D5-B734-466772E9A590}.Release|x64.ActiveCfg = Release|x64
+		{5AD5587C-0349-41D5-B734-466772E9A590}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

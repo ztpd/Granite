@@ -1,0 +1,21 @@
+{
+    "Port": 21000,
+    "Host": "0.0.0.0",
+    "PublicHost": "127.0.0.1",
+    "CertificateDirectory": "Storage/Certificate",
+    "CaptureDirectory": "Storage/Captures/Http",
+    "UserContentDirectory": "Storage/UserContent",
+    "SessionDirectory": "Storage/Sessions",
+    "OwnedItemsFile": "Storage/Inventory/OwnedItems.json",
+    "AutomaticOwnership": true,
+    "AutomaticOwnershipCatalog": "Storage/Inventory/AutomaticCatalog.json",
+    "AttributeProfiles": "Storage/Career/AttributeProfiles.json",
+    "VirtualCurrencyStatic": false,
+    "CdnDirectory": "Storage/Cdn",
+    "EndpointTable": "Storage/Session/Login/Endpoints2K19.json",
+    "WorldPort": 20054,
+    "RelayPort": 28091,
+    "RelaySessionPort": 9768,
+    "MaximumBodyBytes": 67108864,
+    "Verbose": true
+}

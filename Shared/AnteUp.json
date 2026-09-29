@@ -1,0 +1,15 @@
+{
+    "mode": "practice",
+    "gamblingId": "1",
+    "description": "Local test prices, not recovered retail prices. Practice mode does not debit or award VC.",
+    "courts": [
+        { "name": "GAMBLING_ONE_V_ONE", "index": 0, "entryVc": 500 },
+        { "name": "GAMBLING_THREE_V_THREE_1", "index": 1, "entryVc": 500 },
+        { "name": "GAMBLING_THREE_V_THREE_2", "index": 2, "entryVc": 500 },
+        { "name": "GAMBLING_THREE_V_THREE_3", "index": 3, "entryVc": 500 },
+        { "name": "GAMBLING_THREE_V_THREE_4", "index": 4, "entryVc": 500 },
+        { "name": "GAMBLING_THREE_V_THREE_5", "index": 5, "entryVc": 500 },
+        { "name": "GAMBLING_TWO_V_TWO_1", "index": 6, "entryVc": 500 },
+        { "name": "GAMBLING_TWO_V_TWO_2", "index": 7, "entryVc": 500 }
+    ]
+}
