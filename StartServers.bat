@@ -17,7 +17,7 @@ if not "%OPAL_LOCKSTEP_DELAY_FRAMES%"=="%GRANITE_LOCKSTEP_BUFFER_FRAMES%" (
   pause
   exit /b 1
 )
-if not defined GRANITE_PORT set "GRANITE_PORT=22000"
+if not defined GRANITE_PORT set "GRANITE_PORT=21000"
 if not defined GRANITE_HOST set "GRANITE_HOST=0.0.0.0"
 
 set "ROOT=%~dp0"
