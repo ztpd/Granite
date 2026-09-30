@@ -17,8 +17,9 @@ A private server stack for NBA 2K19 on PC.
 ## Requirements
 
 - Node.js 18 or newer
-- OpenSSL on `PATH` (or `OPENSSL_PATH`) so Granite can generate its TLS certificate on first start
 - Visual Studio 2022 with the C++ desktop workload to build the native projects
+
+A self-signed TLS certificate is included in `Granite/Server/Storage/Certificate` and is used by both Granite and Opal.
 
 ## Running
 
@@ -85,8 +86,6 @@ npm test
 cd Opal
 npm test
 ```
-
-Opal's tests use the certificate Granite generates, so start Granite once before running them.
 
 The native test project is `Granite/Module/Tests/CrashHandlerTests.vcxproj`. It expects a Release `Module.dll` in `Granite/Build/Release`.
 
